@@ -1,0 +1,37 @@
+# === SYSTEM BINARIES (Do NOT track) ===
+python_embeded/
+git_embeded/
+node_embeded/
+ollama_embeded/
+
+# === AI SUITES (Do NOT track) ===
+ComfyUI/
+VoxCPM/
+
+# === APP ARTIFACTS ===
+fanvue-hub/node_modules/
+fanvue-hub/.next/
+fanvue-hub/.env.local
+fanvue-hub/prisma/*.db
+fanvue-hub/prisma/*.db-journal
+fanvue-hub/prisma/*.db-shm
+fanvue-hub/prisma/*.db-wal
+
+# === PERSONAL CONTENT (Do NOT track) ===
+assets/landingpage/
+assets/TTS/
+fanvue-hub/public/uploads/
+fanvue-hub/public/generated/
+
+# === LOGS & TEMP ===
+logs/
+tmp/
+troubleshoot/
+.DS_Store
+*.log
+Instructions/
+
+# === INSTALLERS ===
+*.exe
+*.msi
+*.code-workspace
